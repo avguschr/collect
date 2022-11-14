@@ -1,0 +1,23 @@
+{
+    "name": "avguschr/collect",
+    "type": "library",
+    "authors": [
+        {
+            "name": "avguschr",
+            "email": "avguschr@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Collect\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+
+}
